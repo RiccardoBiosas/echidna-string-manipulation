@@ -1,0 +1,12 @@
+
+prefix: "echidna_"
+propMaxGas: 8000000030
+testMaxGas: 8000000030
+#testLimit is the number of test sequences to run
+testLimit: 10000
+#stopOnFail makes echidna terminate as soon as any property fails and has been shrunk
+stopOnFail: true
+coverage: true
+format: "json"
+checkAsserts: true
+corpusDir: "corpus"
